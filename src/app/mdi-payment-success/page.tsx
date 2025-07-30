@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function PaymentSuccess() {
   return (
       <div className="min-h-screen flex items-center justify-center bg-gradient-to-b from-green-50 to-green-100 px-6 py-12">
@@ -22,18 +20,11 @@ export default function PaymentSuccess() {
             </div>
           </div>
           <h1 className="text-2xl sm:text-3xl font-bold text-gray-800 mb-2">
-            Payment Successful!
+            Payment Successful
           </h1>
-          <p className="text-gray-600 mb-6">
-            Thank you for your purchase. Your payment has been processed
-            successfully.
+          <p className="text-gray-600">
+            Thank you! Your payment has been processed successfully. You may now return to the app.
           </p>
-          <a
-              href="/"
-              className="inline-block bg-green-600 text-white px-6 py-3 rounded-full font-medium text-sm sm:text-base hover:bg-green-700 transition"
-          >
-            Go to Homepage
-          </a>
         </div>
       </div>
   );
